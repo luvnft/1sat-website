@@ -163,7 +163,7 @@ console.log("1111",{c})
   return (
     <>
       <Head>
-        <title>1SatOrdinals.com - Collection</title>
+        <title>sator.luvnft.com - Collection</title>
         <meta
           name="description"
           content="An Ordinals-compatible implementation on Bitcoin SV"

@@ -77,7 +77,7 @@ const TickerPage: React.FC<PageProps> = ({}) => {
     <>
       {" "}
       <Head>
-        <title>1SatOrdinals.com - BSV20 Ticker</title>
+        <title>sator.luvnft.com - BSV20 Ticker</title>
         <meta
           name="description"
           content="An Ordinals-compatible implementation on Bitcoin SV"

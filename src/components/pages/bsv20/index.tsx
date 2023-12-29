@@ -129,7 +129,7 @@ const Bsv20WalletPage: React.FC<PageProps> = ({}) => {
   return (
     <>
       <Head>
-        <title>1SatOrdinals.com - BSV20</title>
+        <title>sator.luvnft.com - BSV20</title>
         <meta
           name="description"
           content="An Ordinals-compatible implementation on Bitcoin SV"

@@ -1,7 +1,7 @@
 {
-    "name": "1Sat Ordinals",
-    "description": "1 Sat Ordinals Wallet",
-    "short_name": "1Sat Ordinals",
+    "name": "LUV NFT Sator",
+    "description": "Inscribe Sats Ordinals",
+    "short_name": "sator",
     "orientation": "portrait",
     "scope": "/",
     "icons": [

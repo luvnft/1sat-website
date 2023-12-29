@@ -132,7 +132,7 @@ const HomePage: React.FC<PageProps> = ({}) => {
   return (
     <>
       <Head>
-        <title>1SatOrdinals.com</title>
+        <title>sator.luvnft.com</title>
         <meta
           name="description"
           content="An Ordinals-compatible implementation on Bitcoin SV"
@@ -150,7 +150,7 @@ const HomePage: React.FC<PageProps> = ({}) => {
               style={{ fontFamily: "Ubuntu" }}
               className="mt-2 text-xl font-semibold text-purple-300"
             >
-              1Sat Ordinals
+              SATOR
             </h2>
             <S.Heading>
               {numMinted ? `${numMinted.toLocaleString()}` : ""}
