@@ -35,9 +35,9 @@ const Footer: React.FC = () => {
     >
       <a
         className="font-mono text-yellow-400"
-        href="https://docs.1satordinals.com"
+        href="https://discord.com/channels/910051231437819914/shop"
       >
-        Protocol
+        LUV NFT Discord
       </a>
       {/* {!payPk && encryptedBackup && (
         <>
