@@ -2,7 +2,6 @@ import { ORDFS } from "@/context/ordinals";
 import { encode } from "blurhash";
 import { toSvg } from "jdenticon";
 import React, { useEffect, useMemo, useState } from "react";
-import { Blurhash } from "react-blurhash";
 
 type AudioArtifactProps = {
   outPoint?: string;
@@ -82,7 +81,7 @@ const AudioArtifact: React.FC<AudioArtifactProps> = ({
 
   return (
     <div className="relative h- full w-full">
-      {bh && (
+      {/* {bh && (
         <Blurhash
           hash={bh}
           width={"100%"}
@@ -92,7 +91,7 @@ const AudioArtifact: React.FC<AudioArtifactProps> = ({
           punch={1}
           className="w-full h-full min-w-[300px] min-h-[300px] rounded opacity-50 transition"
         />
-      )}
+      )} */}
       {!bh && generatedImage}
       <audio
         className={`w-full transition ${className ? className : ""}`}

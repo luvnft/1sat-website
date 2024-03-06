@@ -3,10 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "analyze": "set ANALYZE=true&&yarn build",
+    "analyze": "ANALYZE=true&&yarn build",
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
+    "start": "npx serve@latest out",
     "lint": "next lint",
     "deploy": "yarn build && firebase deploy"
   },
@@ -23,18 +23,18 @@
     "@types/mime": "^3.0.1",
     "@types/node": "18.15.3",
     "@types/randombytes": "^2.0.0",
-    "@types/react": "18.0.28",
+    "@types/react": "18.2.46",
     "@types/react-copy-to-clipboard": "^5.0.4",
     "@types/react-gamepad": "^1.0.3",
     "@types/styled-components": "^5.1.26",
     "@types/three": "^0.153.0",
     "autoprefixer": "^10.4.14",
     "blurhash": "^2.0.5",
-    "bsv-wasm-web": "^2.0.1",
+    "bsv-wasm-web": "^2.1.1",
     "eslint": "8.36.0",
     "eslint-config-next": "13.2.4",
     "jdenticon": "^3.2.0",
-    "js-1sat-ord": "^0.0.32",
+    "js-1sat-ord": "^0.0.35",
     "lodash": "^4.17.21",
     "mime": "^3.0.0",
     "next": "13.4.9",
@@ -71,8 +71,10 @@
     "@babel/preset-react": "^7.22.5",
     "@emotion/babel-plugin": "^11.10.6",
     "babel-plugin-macros": "^3.1.0",
+    "daisyui": "^4.5.0",
     "fs": "^0.0.1-security",
-    "replace-module-webpack-plugin": "^1.0.0"
+    "replace-module-webpack-plugin": "^1.0.0",
+    "serve": "^14.2.1"
   },
   "babelMacros": {
     "twin": {
